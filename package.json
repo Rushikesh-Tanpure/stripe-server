@@ -1,0 +1,26 @@
+{
+  "name": "stripe-server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Rushikesh-Tanpure/stripe-server.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Rushikesh-Tanpure/stripe-server/issues"
+  },
+  "homepage": "https://github.com/Rushikesh-Tanpure/stripe-server#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.21.2",
+    "stripe": "^17.7.0"
+  }
+}
