@@ -1,5 +1,5 @@
 const express = require("express");
-const stripe = require("stripe")("sk_test_xxx"); // Replace with your Stripe Secret Key
+const stripe = require("stripe")(process.env.STRIPE_SECRET_KEY);
 const app = express();
 const cors = require("cors");
 
